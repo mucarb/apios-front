@@ -19,6 +19,7 @@ import { MatCardModule } from "@angular/material/card";
 import { MatTableModule } from "@angular/material/table";
 
 import { HeaderComponent } from "./views/components/template/header/header.component";
+import { FooterComponent } from './views/components/template/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { HeaderComponent } from "./views/components/template/header/header.compo
     // declaration gerada ao gerar um component pelo comando ng g c <pasta>/...<nome do arquivo>
     // (.g de generate .c de component)
     HeaderComponent,
+    FooterComponent,
   ],
   imports: [
     // importacao de componentes sao adiconados aqui
