@@ -20,6 +20,7 @@ import { MatTableModule } from "@angular/material/table";
 
 import { HeaderComponent } from "./views/components/template/header/header.component";
 import { FooterComponent } from './views/components/template/footer/footer.component';
+import { NavComponent } from './views/components/template/nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { FooterComponent } from './views/components/template/footer/footer.compo
     // (.g de generate .c de component)
     HeaderComponent,
     FooterComponent,
+    NavComponent,
   ],
   imports: [
     // importacao de componentes sao adiconados aqui
