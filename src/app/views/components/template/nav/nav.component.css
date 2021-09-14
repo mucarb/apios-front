@@ -1,5 +1,5 @@
 .container {
-    height: 83.1%;
+    height: 83%;
 }
 
 i {
@@ -7,5 +7,5 @@ i {
 }
 
 button {
-    margin: 1rem auto 0 1rem;
+    margin: 0.3rem auto 0 0.3rem;
 }
